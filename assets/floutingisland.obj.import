@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://y7olpbvno2av"
+path="res://.godot/imported/floutingisland.obj-e609da87ede402ae671a0cc36d35744a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/floutingisland.obj-e609da87ede402ae671a0cc36d35744a.mesh"]
+
+source_file="res://assets/floutingisland.obj"
+dest_files=["res://.godot/imported/floutingisland.obj-e609da87ede402ae671a0cc36d35744a.mesh", "res://.godot/imported/floutingisland.obj-e609da87ede402ae671a0cc36d35744a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
