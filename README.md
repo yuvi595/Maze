@@ -24,3 +24,11 @@ This is a 3D quiz game where players navigate through a dungeon-like environment
 
 ## Screenshots
 ![Gameplay Screenshot 1](./Screenshots/0.jpg)
+![Gameplay Screenshot 2](./Screenshots/1.jpg)
+![Gameplay Screenshot 3](./Screenshots/2.jpg)
+![Gameplay Screenshot 4](./Screenshots/3.jpg)
+![Gameplay Screenshot 5](./Screenshots/4.jpg)
+![Gameplay Screenshot 6](./Screenshots/5.jpg)
+![Gameplay Screenshot 7](./Screenshots/6.jpg)
+![Gameplay Screenshot 8](./Screenshots/7.jpg)
+![Gameplay Screenshot 9](./Screenshots/8.jpg)
