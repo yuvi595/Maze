@@ -23,4 +23,4 @@ This is a 3D quiz game where players navigate through a dungeon-like environment
 - **Quiz Interaction**: When the player stands on a specific point in the maze, a quiz question pops up. Answer correctly to proceed; wrong answers may reset progress.
 
 ## Screenshots
-![Gameplay Screenshot 1](./Screenshot/0.jpg)
+![Gameplay Screenshot 1](./Screenshots/0.jpg)
