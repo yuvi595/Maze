@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuestionData" load_steps=2 format=3 uid="uid://o0pyprfgqydm"]
+
+[ext_resource type="Script" path="res://resource/QuestionData.gd" id="1_perop"]
+
+[resource]
+script = ExtResource("1_perop")
+question = " Which data structure is used to implement a priority queue?"
+answers = Array[String](["Queue", " Stack", "Heap", " Array"])
+correct_answer = "Heap"

@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://bvsori521bha6"]
+
+[ext_resource type="Texture2D" uid="uid://b7imd4bbebffb" path="res://materials/tree_small_02_1k.blend/textures/tree_small_02_leaves_diff_1k.png" id="1_wrerq"]
+[ext_resource type="Texture2D" uid="uid://byverjaptsc2" path="res://materials/tree_small_02_1k.blend/textures/tree_small_02_leaves_nor_gl_1k.png" id="2_e5xv4"]
+[ext_resource type="Texture2D" uid="uid://dy7ohgneh7787" path="res://materials/tree_small_02_1k.blend/textures/tree_small_02_leaves_rough_1k.png" id="3_g3ip4"]
+
+[resource]
+albedo_texture = ExtResource("1_wrerq")
+roughness_texture = ExtResource("3_g3ip4")
+normal_enabled = true
+normal_texture = ExtResource("2_e5xv4")
+uv1_triplanar = true

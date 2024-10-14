@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuestionData" load_steps=2 format=3 uid="uid://cbci7u264ejip"]
+
+[ext_resource type="Script" path="res://resource/QuestionData.gd" id="1_17s22"]
+
+[resource]
+script = ExtResource("1_17s22")
+question = ""
+answers = Array[String]([])
+correct_answer = "Stack"

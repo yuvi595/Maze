@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuestionData" load_steps=2 format=3 uid="uid://cweflondes517"]
+
+[ext_resource type="Script" path="res://resource/QuestionData.gd" id="1_5ydk3"]
+
+[resource]
+script = ExtResource("1_5ydk3")
+question = "In Java, which method is used to start a thread execution?"
+answers = Array[String](["a) run()", "b) start()", "c) init()", "d) resume()"])
+correct_answer = "b) start()"

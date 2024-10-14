@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuestionData" load_steps=2 format=3 uid="uid://dy2vxtbbl2ej"]
+
+[ext_resource type="Script" path="res://resource/QuestionData.gd" id="1_2sxg8"]
+
+[resource]
+script = ExtResource("1_2sxg8")
+question = "Which HTTP method is used to submit data to be processed to a specified resource?"
+answers = Array[String](["a) GET", "b) POST", "c) PUT", "d) DELETE"])
+correct_answer = "b) POST"

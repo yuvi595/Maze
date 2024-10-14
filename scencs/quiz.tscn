@@ -1,0 +1,139 @@
+[gd_scene load_steps=13 format=3 uid="uid://cd4rind68636k"]
+
+[ext_resource type="Script" path="res://script/Area.gd" id="1_2g8dy"]
+[ext_resource type="Resource" uid="uid://cbci7u264ejip" path="res://resData/questions/quiz1.tres" id="2_l8ot5"]
+[ext_resource type="Resource" uid="uid://pt0gnngkv744" path="res://resData/questions/quiz2.tres" id="3_6325d"]
+[ext_resource type="Resource" uid="uid://bsgt1434f2hvd" path="res://resData/questions/quiz3.tres" id="4_5fj1a"]
+[ext_resource type="Resource" uid="uid://bbgtutqvcdq6n" path="res://resData/questions/quiz4.tres" id="5_xqvjv"]
+[ext_resource type="Resource" uid="uid://dcvw3ycc83h4p" path="res://resData/questions/quiz5.tres" id="6_ijxah"]
+[ext_resource type="Resource" uid="uid://j11bjr51pwta" path="res://resData/questions/quiz6.tres" id="7_e6xdn"]
+[ext_resource type="Resource" uid="uid://o0pyprfgqydm" path="res://resData/questions/quiz7.tres" id="8_333ec"]
+[ext_resource type="Resource" uid="uid://c1go58130iyxy" path="res://resData/questions/quiz8.tres" id="9_bd81n"]
+[ext_resource type="Resource" uid="uid://dpy1rq6dxt6u5" path="res://resData/questions/quiz9.tres" id="10_p2akk"]
+[ext_resource type="Resource" uid="uid://dg0uq6mtvf5h6" path="res://resData/questions/quiz10.tres" id="11_u8isj"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nrgwf"]
+size = Vector3(2.48291, 0.117188, 1)
+
+[node name="Quiz" type="Node3D"]
+
+[node name="QArea1" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.8299, 2.85469, 22.8452)
+script = ExtResource("1_2g8dy")
+quiz_ui = NodePath("../../QuizUI(Control)")
+question_resource = ExtResource("2_l8ot5")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="QArea1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.265381, -1.38266, 0)
+shape = SubResource("BoxShape3D_nrgwf")
+
+[node name="QArea2" type="Area3D" parent="."]
+transform = Transform3D(-0.0259153, 0, -0.999664, 0, 1, 0, 0.999664, 0, -0.0259153, -22.5859, 2.85469, 11.1164)
+script = ExtResource("1_2g8dy")
+quiz_ui = NodePath("../../QuizUI(Control)")
+question_resource = ExtResource("3_6325d")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="QArea2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.38266, 0)
+shape = SubResource("BoxShape3D_nrgwf")
+
+[node name="QArea3" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.0947, 2.85469, 23.5757)
+script = ExtResource("1_2g8dy")
+quiz_ui = NodePath("../../QuizUI(Control)")
+question_resource = ExtResource("4_5fj1a")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="QArea3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.38266, 0)
+shape = SubResource("BoxShape3D_nrgwf")
+
+[node name="QArea4" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.91293, 2.85469, 40.8609)
+script = ExtResource("1_2g8dy")
+quiz_ui = NodePath("../../QuizUI(Control)")
+question_resource = ExtResource("5_xqvjv")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="QArea4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.38266, 0)
+shape = SubResource("BoxShape3D_nrgwf")
+
+[node name="QArea5" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.91293, 2.85469, 3.51627)
+script = ExtResource("1_2g8dy")
+quiz_ui = NodePath("../../QuizUI(Control)")
+question_resource = ExtResource("6_ijxah")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="QArea5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.38266, 0)
+shape = SubResource("BoxShape3D_nrgwf")
+
+[node name="QArea6" type="Area3D" parent="."]
+transform = Transform3D(-0.00687658, 0, -0.999976, 0, 1, 0, 0.999976, 0, -0.00687658, -1.91293, 2.85469, -33.3628)
+script = ExtResource("1_2g8dy")
+quiz_ui = NodePath("../../QuizUI(Control)")
+question_resource = ExtResource("7_e6xdn")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="QArea6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.38266, 0)
+shape = SubResource("BoxShape3D_nrgwf")
+
+[node name="QArea7" type="Area3D" parent="."]
+transform = Transform3D(0.611568, 0, -0.791192, 0, 1, 0, 0.791192, 0, 0.611568, 42.2143, 2.85469, -1.11246)
+script = ExtResource("1_2g8dy")
+quiz_ui = NodePath("../../QuizUI(Control)")
+question_resource = ExtResource("8_333ec")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="QArea7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.38266, 0)
+shape = SubResource("BoxShape3D_nrgwf")
+
+[node name="QArea8" type="Area3D" parent="."]
+transform = Transform3D(-0.0287939, 0, -0.999585, 0, 1, 0, 0.999585, 0, -0.0287939, -9.93609, 2.85469, -18.4291)
+script = ExtResource("1_2g8dy")
+quiz_ui = NodePath("../../QuizUI(Control)")
+question_resource = ExtResource("9_bd81n")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="QArea8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.38266, 0)
+shape = SubResource("BoxShape3D_nrgwf")
+
+[node name="QArea9" type="Area3D" parent="."]
+transform = Transform3D(-0.998782, 0, 0.0493379, 0, 1, 0, -0.0493379, 0, -0.998782, 25.3369, 2.85469, -7.7743)
+script = ExtResource("1_2g8dy")
+quiz_ui = NodePath("../../QuizUI(Control)")
+question_resource = ExtResource("10_p2akk")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="QArea9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.38266, 0)
+shape = SubResource("BoxShape3D_nrgwf")
+
+[node name="QArea10" type="Area3D" parent="."]
+transform = Transform3D(-0.998782, 0, 0.0493379, 0, 1, 0, -0.0493379, 0, -0.998782, 50.8636, 2.85469, -30.3992)
+script = ExtResource("1_2g8dy")
+quiz_ui = NodePath("../../QuizUI(Control)")
+question_resource = ExtResource("11_u8isj")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="QArea10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.38266, 0)
+shape = SubResource("BoxShape3D_nrgwf")
+
+[connection signal="body_entered" from="QArea1" to="QArea1" method="_on_body_entered"]
+[connection signal="body_exited" from="QArea1" to="QArea1" method="_on_body_exited"]
+[connection signal="body_entered" from="QArea2" to="QArea2" method="_on_body_entered"]
+[connection signal="body_exited" from="QArea2" to="QArea2" method="_on_body_exited"]
+[connection signal="body_entered" from="QArea3" to="QArea3" method="_on_body_entered"]
+[connection signal="body_exited" from="QArea3" to="QArea3" method="_on_body_exited"]
+[connection signal="body_entered" from="QArea4" to="QArea4" method="_on_body_entered"]
+[connection signal="body_exited" from="QArea4" to="QArea4" method="_on_body_exited"]
+[connection signal="body_entered" from="QArea5" to="QArea5" method="_on_body_entered"]
+[connection signal="body_exited" from="QArea5" to="QArea5" method="_on_body_exited"]
+[connection signal="body_entered" from="QArea6" to="QArea6" method="_on_body_entered"]
+[connection signal="body_exited" from="QArea6" to="QArea6" method="_on_body_exited"]
+[connection signal="body_entered" from="QArea7" to="QArea7" method="_on_body_entered"]
+[connection signal="body_exited" from="QArea7" to="QArea7" method="_on_body_exited"]
+[connection signal="body_entered" from="QArea8" to="QArea8" method="_on_body_entered"]
+[connection signal="body_exited" from="QArea8" to="QArea8" method="_on_body_exited"]
+[connection signal="body_entered" from="QArea9" to="QArea9" method="_on_body_entered"]
+[connection signal="body_exited" from="QArea9" to="QArea9" method="_on_body_exited"]
+[connection signal="body_entered" from="QArea10" to="QArea10" method="_on_body_entered"]
+[connection signal="body_exited" from="QArea10" to="QArea10" method="_on_body_exited"]

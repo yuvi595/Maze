@@ -1,0 +1,55 @@
+[gd_scene load_steps=3 format=3 uid="uid://c74tbtvx26ml0"]
+
+[ext_resource type="Script" path="res://script/menu.gd" id="2_jm53t"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_e8v1d"]
+load_path = "res://.godot/imported/wallpapersden.com_moonlit-starry-night-sky_3584x2048.jpg-ad37a22d4df7b93b26caf771c1b35a56.s3tc.ctex"
+
+[node name="UI" type="Control"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -576.0
+offset_top = -328.0
+offset_right = 3261.0
+offset_bottom = 1842.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.3, 0.3)
+texture = SubResource("CompressedTexture2D_e8v1d")
+flip_h = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+offset_left = 367.0
+offset_top = 205.0
+offset_right = 566.0
+offset_bottom = 309.0
+script = ExtResource("2_jm53t")
+
+[node name="start" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 30
+text = "Start"
+
+[node name="quit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 30
+text = "Quit
+"
+
+[connection signal="pressed" from="VBoxContainer/start" to="VBoxContainer" method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/quit" to="VBoxContainer" method="_on_quit_pressed"]

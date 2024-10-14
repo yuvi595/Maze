@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuestionData" load_steps=2 format=3 uid="uid://j11bjr51pwta"]
+
+[ext_resource type="Script" path="res://resource/QuestionData.gd" id="1_lhrwl"]
+
+[resource]
+script = ExtResource("1_lhrwl")
+question = "What is the primary advantage of using a hash table for data storage?"
+answers = Array[String](["Sorted data", "Easy traversal", " Fast average-case lookups (O(1))", " Minimal memory usage"])
+correct_answer = "Fast average-case lookups (O(1))"

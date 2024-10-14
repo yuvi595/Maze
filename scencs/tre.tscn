@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=3 uid="uid://cq55xbrr3g74e"]
+
+[ext_resource type="PackedScene" uid="uid://dea3j7upcro2e" path="res://materials/island_tree_01_1k/island_tree_01_1k.gltf" id="1_fn43u"]
+[ext_resource type="Material" uid="uid://bbichxwp6dwow" path="res://textures/treetrunk.tres" id="2_mqe43"]
+[ext_resource type="Material" uid="uid://bvsori521bha6" path="res://textures/leaves.tres" id="3_2pnws"]
+
+[node name="island_tree_01_1k" instance=ExtResource("1_fn43u")]
+
+[node name="island_tree_01" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_mqe43")
+surface_material_override/1 = ExtResource("2_mqe43")
+surface_material_override/2 = ExtResource("3_2pnws")

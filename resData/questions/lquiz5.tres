@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuestionData" load_steps=2 format=3 uid="uid://ddfkj5ytu482v"]
+
+[ext_resource type="Script" path="res://resource/QuestionData.gd" id="1_7y1be"]
+
+[resource]
+script = ExtResource("1_7y1be")
+question = "Which function is used to read a single character from the console in C++?"
+answers = Array[String](["a) getchar()", "b) readchar()", "c) get()", "d) cin.getchar()"])
+correct_answer = "a) getchar()"

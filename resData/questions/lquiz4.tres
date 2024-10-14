@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuestionData" load_steps=2 format=3 uid="uid://lp33xixnibq"]
+
+[ext_resource type="Script" path="res://resource/QuestionData.gd" id="1_7xoc6"]
+
+[resource]
+script = ExtResource("1_7xoc6")
+question = "Which keyword is used to prevent any changes in a variable within C?"
+answers = Array[String](["a) immutable", "b) constant", "c) const", "d) final"])
+correct_answer = "c) const"

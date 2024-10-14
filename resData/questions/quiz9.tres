@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuestionData" load_steps=2 format=3 uid="uid://dpy1rq6dxt6u5"]
+
+[ext_resource type="Script" path="res://resource/QuestionData.gd" id="1_qplxj"]
+
+[resource]
+script = ExtResource("1_qplxj")
+question = "Which of the following is NOT a type of linked list?"
+answers = Array[String](["Singly Linked List", "Doubly Linked List", "Circular Linked List", "Binary Linked List"])
+correct_answer = "Binary Linked List"

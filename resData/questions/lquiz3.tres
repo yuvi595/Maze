@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuestionData" load_steps=2 format=3 uid="uid://dv4ru75ltxf47"]
+
+[ext_resource type="Script" path="res://resource/QuestionData.gd" id="1_67ulk"]
+
+[resource]
+script = ExtResource("1_67ulk")
+question = "Which of the following is a valid declaration of a pointer in C?"
+answers = Array[String](["a) int *ptr;", "b) int ptr;", "c) *int ptr;", "d) ptr int;"])
+correct_answer = "a) int *ptr;"

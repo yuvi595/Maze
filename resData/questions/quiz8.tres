@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuestionData" load_steps=2 format=3 uid="uid://c1go58130iyxy"]
+
+[ext_resource type="Script" path="res://resource/QuestionData.gd" id="1_58ff5"]
+
+[resource]
+script = ExtResource("1_58ff5")
+question = " Which algorithm is used to find the shortest path in a weighted graph?"
+answers = Array[String](["BFS", "DFS", "c) Prim's Algorithm", "Dijkstra's Algorithm"])
+correct_answer = "Dijkstra's Algorithm"

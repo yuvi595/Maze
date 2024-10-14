@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuestionData" load_steps=2 format=3 uid="uid://bsgt1434f2hvd"]
+
+[ext_resource type="Script" path="res://resource/QuestionData.gd" id="1_qsg7d"]
+
+[resource]
+script = ExtResource("1_qsg7d")
+question = "What is the time complexity of inserting an element at the end of a dynamic array in the worst-case scenario?"
+answers = Array[String]([" O(1)", "O(n)", "O(log n)", "O(n log n)"])
+correct_answer = " O(n)"

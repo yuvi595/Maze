@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuestionData" load_steps=2 format=3 uid="uid://pt0gnngkv744"]
+
+[ext_resource type="Script" path="res://resource/QuestionData.gd" id="1_bvvn2"]
+
+[resource]
+script = ExtResource("1_bvvn2")
+question = " What is the time complexity (Big O notation) of searching for a specific element in a sorted array using binary search?"
+answers = Array[String](["O(n)", "O(n log n)", "O(log n)", " O(1)"])
+correct_answer = "O(log n)"

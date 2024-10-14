@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://c1rkwqdfjr6l0"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 217.0
+offset_top = 136.0
+offset_right = -182.0
+offset_bottom = -155.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Panel"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 48.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 30
+text = "Welcome to Mastery Maze
+"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 95.0
+offset_bottom = 45.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 20
+text = "Dungeon Rules
+
+Objective: Solve 5 questions correctly to advance.
+
+Questions: Basic programming and DSA. Multiple-choice.
+
+Gameplay:
+Explore: Find questions.
+Answer: Select the correct option.
+
+Correct Answer: 5 correct answers to proceed.
+
+Incorrect Answer: Respawn and try again.
+
+Navigation: Use controls to move around.
+
+Good luck!"
+horizontal_alignment = 1
+autowrap_mode = 2
+uppercase = true

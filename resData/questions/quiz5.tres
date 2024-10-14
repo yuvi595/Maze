@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuestionData" load_steps=2 format=3 uid="uid://dcvw3ycc83h4p"]
+
+[ext_resource type="Script" path="res://resource/QuestionData.gd" id="1_ngi7p"]
+
+[resource]
+script = ExtResource("1_ngi7p")
+question = "In a binary search tree (BST), where would you find the node with the smallest value?"
+answers = Array[String](["Leftmost node", " Rightmost node", "Root node", "Any leaf node"])
+correct_answer = "Leftmost node"

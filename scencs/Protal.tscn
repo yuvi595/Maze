@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://cbxhomajjj0ul"]
+
+[ext_resource type="Script" path="res://script/Portal.gd" id="1_lyaqw"]
+[ext_resource type="PackedScene" uid="uid://c2grk0kfb2cin" path="res://scencs/vfx_portal.tscn" id="2_sjjvv"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ri4k7"]
+size = Vector3(1, 1, 0.5)
+
+[node name="Protal" type="Area3D"]
+script = ExtResource("1_lyaqw")
+
+[node name="VFX_Portal" parent="." instance=ExtResource("2_sjjvv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.262614, 0, -0.321184)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.419208)
+shape = SubResource("BoxShape3D_ri4k7")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuestionData" load_steps=2 format=3 uid="uid://cpttfki37sus3"]
+
+[ext_resource type="Script" path="res://resource/QuestionData.gd" id="1_x6kh5"]
+
+[resource]
+script = ExtResource("1_x6kh5")
+question = "Which of the following is used to find and fix bugs in a program?"
+answers = Array[String](["a) Compiler", "b) Interpreter", "c) Debugger", "d) Assembler"])
+correct_answer = "d) Assembler"

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="QuestionData" load_steps=2 format=3 uid="uid://dx1uq0y5tf7m8"]
+
+[ext_resource type="Script" path="res://resource/QuestionData.gd" id="1_v542s"]
+
+[resource]
+script = ExtResource("1_v542s")
+question = "Which of the following is not a JavaScript data type?"
+answers = Array[String](["a) Number", "b) String", "c) Boolean", "d) Character"])
+correct_answer = "d) Character"
